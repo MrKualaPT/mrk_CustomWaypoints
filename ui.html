@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Waypoint List</title>
+  <!-- Fonte estilo faroeste -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+  <h1>📜 Waypoints</h1>
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Procurar blip...">
+  </div>
+  <ul id="blip-list">
+    <!-- Blips de exemplo -->
+    <li class="blip-item">
+      <span>Saloon de Valentine</span>
+      <div>
+         <button>Marcar</button>
+        <button>Renomear</button>
+        <button>Set Loc</button>
+        <button>X</button>
+      </div>
+    </li>
+    <li class="blip-item">
+      <span>Estábulos de Saint Denis</span>
+      <div>
+        <button>Marcar</button>
+        <button>Renomear</button>
+        <button>Set Loc</button>
+        <button>X</button>
+      </div>
+    </li>
+  </ul>
+  <button class="close-btn" onclick="closeUI()">Fechar</button>
+</div>
+</body>
+</html>
